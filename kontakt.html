@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Kontakt informacije</h1>
+
+    <ul>
+        <li><i class="fas fa-map-marker-alt"></i> <strong>Adresa:</strong> Uzići bb, Srbija</li>
+        <li><i class="fas fa-phone"></i> <strong>Telefon:</strong> <a href="tel:0645510901">064/5510901</a></li>
+        <li><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:andrijazaric22@gmail.com">andrijazaric22@gmail.com</a></li>
+        <li><i class="fas fa-clock"></i> <strong>Radno vreme:</strong> Pon - Pet: 09:00 - 17:00</li>
+    </ul>
+
+    <div style="margin-top: 20px;">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2839.4534513672736!2d20.012890615536947!3d43.86052007911464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475772259aa3a599%3A0x41b3e71f342d942e!2z0J7RgtCw0LvQtdC90LjRjw!5e0!3m2!1ssr!2srs!4v1718730000000"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <hr>
+
+    <h2>Pošalji mi poruku</h2>
+    <form action="mailto:andrijazaric22@gmail.com" method="post" enctype="text/plain">
+        <label for="ime">Ime i prezime:</label>
+        <input type="text" id="ime" name="ime" placeholder="Unesi svoje ime" required>
+
+        <label for="email">Email adresa:</label>
+        <input type="email" id="email" name="email" placeholder="tvoj@email.com" required>
+
+        <label for="poruka">Poruka:</label>
+        <textarea id="poruka" name="poruka" rows="6" placeholder="Napiši svoju poruku..." required></textarea>
+
+        <input type="submit" value="Pošalji poruku">
+    </form>
+</body>
+</html>
